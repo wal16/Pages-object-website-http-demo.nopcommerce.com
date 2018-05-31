@@ -1,12 +1,19 @@
 package tests;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import pageobject.LoginPage;
+import pageobject.MainPage;
+import pageobject.RegisterPage;
+
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertTrue;
+import static org.openqa.selenium.By.xpath;
 
 public class FirstTests {
 
@@ -21,7 +28,7 @@ public class FirstTests {
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1600,900));
 
         mainPage = PageFactory.initElements(driver, MainPage.class);
         loginPage = PageFactory.initElements(driver, LoginPage.class);
@@ -41,7 +48,7 @@ public class FirstTests {
     }
 
     @Test
-    public void registerTest(){
+    public void registerTest() {
         driver.get("http://demo.nopcommerce.com/register");
 
         String firstName = "Waldemar";
@@ -50,13 +57,25 @@ public class FirstTests {
         String password = "adminps1";
         String confirmPassword = "adminps1";
         registerPage.registerUserForm(firstName, lastName, email, password, confirmPassword);
-        registerPage.clicOnSubmitButton();
+        registerPage.clickOnSubmitButton();
 
         /*assertTrue("User was not register correctly" , driver.getCurrentUrl().equals("http://demo.nopcommerce" + " .com/register"));*/
 
-        assertThat(main)
+        assertThat(driver.findElement(xpath("//div[@class='message-error validation-summary-errors']")).getText()).contains("The specified email already exists");
 
+    }
 
+    @Test
+    public void findAndClickMainPageElements() {
+        driver.get("http://demo.nopcommmerce.com");
+
+        assertTrue(mainPage.areLinkElementClickable());
+
+    }
+
+    @After
+    public void tearDown() {
+        driver.close();
 
 
     }
