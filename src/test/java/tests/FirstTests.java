@@ -40,7 +40,7 @@ public class FirstTests {
     @Test
     public void loginTest() {
         driver.get("http://demo.nopcommerce.com/login");
-        String email = "test5@gmail.com";
+        String email = "waldemar.mozola@onet.pl";
         String password = "adminps1";
         loginPage.userLogin(email, password);
 
