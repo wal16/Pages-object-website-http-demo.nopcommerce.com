@@ -40,4 +40,26 @@ public class FirstTests {
         assertTrue("User is logged in", mainPage.isUserIsLoggedIn());
     }
 
+    @Test
+    public void registerTest(){
+        driver.get("http://demo.nopcommerce.com/register");
+
+        String firstName = "Waldemar";
+        String lastName = "Mozoła";
+        String email = "waldemar.mozola@onet.pl";
+        String password = "adminps1";
+        String confirmPassword = "adminps1";
+        registerPage.registerUserForm(firstName, lastName, email, password, confirmPassword);
+        registerPage.clicOnSubmitButton();
+
+        /*assertTrue("User was not register correctly" , driver.getCurrentUrl().equals("http://demo.nopcommerce" + " .com/register"));*/
+
+        assertThat(main)
+
+
+
+
+    }
+
+
 }
