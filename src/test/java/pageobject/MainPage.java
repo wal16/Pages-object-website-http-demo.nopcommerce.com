@@ -50,7 +50,7 @@ public class MainPage {
 
     public boolean areLinkElementClickable() {
         return
-                computersLinkElement.isDisplayed() &&
+                        computersLinkElement.isDisplayed() &&
                         electronicsLinkElement.isDisplayed() &&
                         apparelLinkElement.isDisplayed() &&
                         booksLinkElement.isDisplayed() &&

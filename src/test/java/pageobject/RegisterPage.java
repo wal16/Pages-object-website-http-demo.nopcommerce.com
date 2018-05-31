@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class RegisterPage {
 
-    @FindBy(id = "gender-female")
+    @FindBy(id = "gender-male")
     private WebElement genderNameButton;
 
     @FindBy(name = "FirstName")

@@ -28,7 +28,7 @@ public class FirstTests {
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
         driver = new ChromeDriver();
-        driver.manage().window().setSize(new Dimension(1600,900));
+        driver.manage().window().setSize(new Dimension(1600, 900));
 
         mainPage = PageFactory.initElements(driver, MainPage.class);
         loginPage = PageFactory.initElements(driver, LoginPage.class);

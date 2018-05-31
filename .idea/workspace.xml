@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f097d58-38c4-4786-a87c-239657d4332b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobject/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobject/RegisterPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +16,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -27,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1197#1198#0" expanded="true" />
@@ -44,8 +62,8 @@
       <file leaf-file-name="RegisterPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="-219">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1076#1077#0" expanded="true" />
@@ -55,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            <state relative-caret-position="138">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +103,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobject/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/MainPage.java" />
       </list>
     </option>
   </component>
@@ -216,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTests">
+  <component name="RunManager" selected="JUnit.FirstTests.findAndClickMainPageElements">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -234,6 +252,29 @@
       <option name="MAIN_CLASS_NAME" value="tests.FirstTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FirstTests.findAndClickMainPageElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nopCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FirstTests" />
+      <option name="METHOD_NAME" value="findAndClickMainPageElements" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -307,9 +348,11 @@
     <list>
       <item itemvalue="JUnit.FirstTests" />
       <item itemvalue="JUnit.FirstTests.loginTest" />
+      <item itemvalue="JUnit.FirstTests.findAndClickMainPageElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTests.findAndClickMainPageElements" />
         <item itemvalue="JUnit.FirstTests" />
         <item itemvalue="JUnit.FirstTests.loginTest" />
       </list>
@@ -326,20 +369,11 @@
       <option name="presentableId" value="Default" />
       <updated>1527356636277</updated>
       <workItem from="1527356644861" duration="10611000" />
-      <workItem from="1527762715699" duration="9259000" />
+      <workItem from="1527762715699" duration="12087000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTests - 2018.05.31 at 16h 25m 12s.xml">
-      <configuration name="FirstTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTests - 2018.05.31 at 16h 40m 48s.xml">
-      <configuration name="FirstTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTests_loginTest - 2018.05.31 at 16h 41m 28s.xml">
-      <configuration name="FirstTests.loginTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTests_loginTest - 2018.05.31 at 16h 45m 27s.xml">
       <configuration name="FirstTests.loginTest" configurationId="JUnit" />
     </history-entry>
@@ -349,9 +383,30 @@
     <history-entry file="FirstTests_loginTest - 2018.05.31 at 16h 47m 47s.xml">
       <configuration name="FirstTests.loginTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstTests - 2018.05.31 at 16h 48m 31s.xml">
+      <configuration name="FirstTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_findAndClickMainPageElements - 2018.05.31 at 16h 57m 32s.xml">
+      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests - 2018.05.31 at 17h 04m 29s.xml">
+      <configuration name="FirstTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests - 2018.05.31 at 17h 06m 07s.xml">
+      <configuration name="FirstTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests - 2018.05.31 at 17h 08m 49s.xml">
+      <configuration name="FirstTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests - 2018.05.31 at 17h 15m 33s.xml">
+      <configuration name="FirstTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_findAndClickMainPageElements - 2018.05.31 at 17h 33m 23s.xml">
+      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19870000" />
+    <option name="totallyTimeSpent" value="22698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,21 +431,21 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1963288" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1963288" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32960895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24980047" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -460,30 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -496,10 +527,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        <state relative-caret-position="138">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
           </folding>
         </state>
       </provider>
