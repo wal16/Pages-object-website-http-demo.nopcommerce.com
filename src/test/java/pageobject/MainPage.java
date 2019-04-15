@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 public class MainPage {
 
     @FindBy(linkText = "Log in")
-    private WebElement logInLinkElemrnt;
+    private WebElement logInLinkElement;
 
-    @FindBy(linkText = "Log out")
+    @FindBy(css = "a.ico-logout")
     private WebElement logOutLinkElement;
 
     @FindBy(linkText = "Register")
@@ -23,10 +23,10 @@ public class MainPage {
     @FindBy(name = "login")
     private WebElement signInButton;
 
-    @FindBy(linkText = "Computers")
+    @FindBy(tagName = "a")
     private WebElement computersLinkElement;
 
-    @FindBy(linkText = "Elektronics")
+    @FindBy(tagName = "a")
     private WebElement electronicsLinkElement;
 
     @FindBy(linkText = "Apparel")
@@ -50,7 +50,9 @@ public class MainPage {
 
     public boolean areLinkElementClickable() {
         return
-                        computersLinkElement.isDisplayed() &&
+
+
+                computersLinkElement.isDisplayed() &&
                         electronicsLinkElement.isDisplayed() &&
                         apparelLinkElement.isDisplayed() &&
                         booksLinkElement.isDisplayed() &&

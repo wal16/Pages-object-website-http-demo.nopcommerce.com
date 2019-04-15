@@ -67,7 +67,9 @@ public class FirstTests {
 
     @Test
     public void findAndClickMainPageElements() {
-        driver.get("http://demo.nopcommmerce.com");
+
+
+        driver.get("http://demo.nopcommerce.com/");
 
         assertTrue(mainPage.areLinkElementClickable());
 
