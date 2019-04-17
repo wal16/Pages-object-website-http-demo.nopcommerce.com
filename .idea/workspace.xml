@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f097d58-38c4-4786-a87c-239657d4332b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nopCommerce.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="360">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,15 +48,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1865">
+            <state relative-caret-position="15">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/nopCommerce.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -63,11 +59,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="414">
+              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="990">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +121,7 @@
       <list>
         <Entry>
           <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-          <option name="moduleName" value="nopCommerce" />
+          <option name="moduleName" value="" />
           <option name="title" value="nopCommerce (Bundled Groovy 2.4.12)" />
         </Entry>
       </list>
@@ -137,9 +133,9 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/RegisterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobject/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FirstTests.java" />
       </list>
     </option>
   </component>
@@ -178,85 +174,42 @@
         <subPane>
           <expand>
             <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageobject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pages-object-website-http-demo.nopcommerce.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nopCommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nopCommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,6 +222,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -291,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTests">
+  <component name="RunManager" selected="JUnit.FirstTests.registerTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -389,9 +343,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTests.registerTest" />
         <item itemvalue="JUnit.FirstTests" />
         <item itemvalue="JUnit.FirstTests.findAndClickMainPageElements" />
-        <item itemvalue="JUnit.FirstTests.registerTest" />
         <item itemvalue="JUnit.FirstTests.loginTest" />
       </list>
     </recent_temporary>
@@ -411,25 +365,11 @@
       <workItem from="1527801821303" duration="3753000" />
       <workItem from="1555183460321" duration="4219000" />
       <workItem from="1555309656156" duration="1771000" />
+      <workItem from="1555504046259" duration="2764000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTests_findAndClickMainPageElements - 2019.04.13 at 21h 44m 41s.xml">
-      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTests_findAndClickMainPageElements - 2019.04.13 at 21h 48m 23s.xml">
-      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTests_findAndClickMainPageElements - 2019.04.13 at 21h 48m 49s.xml">
-      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTests_findAndClickMainPageElements - 2019.04.13 at 21h 49m 37s.xml">
-      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTests_findAndClickMainPageElements - 2019.04.13 at 21h 54m 23s.xml">
-      <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTests_findAndClickMainPageElements - 2019.04.13 at 21h 57m 15s.xml">
       <configuration name="FirstTests.findAndClickMainPageElements" configurationId="JUnit" />
     </history-entry>
@@ -445,9 +385,24 @@
     <history-entry file="FirstTests - 2019.04.15 at 10h 40m 20s.xml">
       <configuration name="FirstTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstTests - 2019.04.17 at 14h 29m 52s.xml">
+      <configuration name="FirstTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_registerTest - 2019.04.17 at 14h 39m 16s.xml">
+      <configuration name="FirstTests.registerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_registerTest - 2019.04.17 at 14h 45m 06s.xml">
+      <configuration name="FirstTests.registerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_registerTest - 2019.04.17 at 14h 48m 06s.xml">
+      <configuration name="FirstTests.registerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTests_registerTest - 2019.04.17 at 14h 50m 01s.xml">
+      <configuration name="FirstTests.registerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38044000" />
+    <option name="totallyTimeSpent" value="40808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +417,39 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20909816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2122905" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Docker" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32960895" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32960895" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24980047" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2122905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -492,7 +479,7 @@
       <window_info anchor="right" id="Database" order="7" weight="0.32960895" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24980047" />
       <window_info anchor="right" id="Maven" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -545,6 +532,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/nopCommerce.iml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -565,19 +553,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTests.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nopCommerce.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -585,23 +573,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/nopCommerce.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1865">
+        <state relative-caret-position="15">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

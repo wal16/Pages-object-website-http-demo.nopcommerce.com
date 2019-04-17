@@ -11,12 +11,10 @@ import pageobject.LoginPage;
 import pageobject.MainPage;
 import pageobject.RegisterPage;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
-import static org.openqa.selenium.By.xpath;
 
 public class FirstTests {
-
     private WebDriver driver;
     private LoginPage loginPage;
     private MainPage mainPage;
@@ -59,18 +57,13 @@ public class FirstTests {
         registerPage.registerUserForm(firstName, lastName, email, password, confirmPassword);
         registerPage.clickOnSubmitButton();
 
-        /*assertTrue("User was not register correctly" , driver.getCurrentUrl().equals("http://demo.nopcommerce" + " .com/register"));*/
-
-        assertThat(driver.findElement(xpath("//div[@class='message-error validation-summary-errors']")).getText()).contains("The specified email already exists");
+        assertNotEquals("User was not register correctly", driver.getCurrentUrl(), "http://demo.nopcommerce" + " .com/register");
 
     }
 
     @Test
     public void findAndClickMainPageElements() {
-
-
         driver.get("http://demo.nopcommerce.com/");
-
         assertTrue(mainPage.areLinkElementClickable());
 
     }
