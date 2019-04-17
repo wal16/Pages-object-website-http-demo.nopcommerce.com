@@ -50,14 +50,12 @@ public class MainPage {
 
     public boolean areLinkElementClickable() {
         return
-
-
-                computersLinkElement.isDisplayed() &&
-                        electronicsLinkElement.isDisplayed() &&
-                        apparelLinkElement.isDisplayed() &&
-                        booksLinkElement.isDisplayed() &&
-                        yewelryLinkElement.isDisplayed() &&
-                        giftCardsLinkElement.isDisplayed();
+    computersLinkElement.isDisplayed() &&
+    electronicsLinkElement.isDisplayed() &&
+    apparelLinkElement.isDisplayed() &&
+    booksLinkElement.isDisplayed() &&
+    yewelryLinkElement.isDisplayed() &&
+    giftCardsLinkElement.isDisplayed();
     }
 
 }
