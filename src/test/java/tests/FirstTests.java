@@ -54,7 +54,8 @@ public class FirstTests {
         String email = "waldemar.mozola@onet.pl";
         String password = "adminps1";
         String confirmPassword = "adminps1";
-        registerPage.registerUserForm(firstName, lastName, email, password, confirmPassword);
+        registerPage.registerUserForm(firstName, lastName, email,
+        password, confirmPassword);
         registerPage.clickOnSubmitButton();
 
         assertNotEquals("User was not register correctly", driver.getCurrentUrl(), "http://demo.nopcommerce" + " .com/register");
