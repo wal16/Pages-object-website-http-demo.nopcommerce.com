@@ -49,14 +49,7 @@ public class FirstTests {
     public void registerTest() {
         driver.get("http://demo.nopcommerce.com/register");
 
-        String firstName = "Waldemar";
-        String lastName = "Mozoła";
-        String email = "waldemar.mozola@onet.pl";
-        String password = "adminps1";
-        String confirmPassword = "adminps1";
-        registerPage.registerUserForm(firstName, lastName, email,
-        password, confirmPassword);
-        registerPage.clickOnSubmitButton();
+
 
         assertNotEquals("User was not register correctly", driver.getCurrentUrl(), "http://demo.nopcommerce" + " .com/register");
 
